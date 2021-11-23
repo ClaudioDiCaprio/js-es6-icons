@@ -1,0 +1,83 @@
+*{
+    margin : 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+.logo{
+  
+    background-color: rgb(255, 255, 255);
+}
+
+.play{
+    height: 60px;
+    text-align: center;
+    background-color: #29b1dd;
+    line-height: 60px;
+}
+
+.chooseAmong{
+    background-color: whitesmoke;
+}
+
+.xtip{
+    text-transform: uppercase;
+    color: white;
+    
+    
+}
+
+.better{
+    margin-left:20px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #29b1dd;
+}
+
+.zoo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #dddddd;
+    min-height: 850px;
+}
+
+.square {
+    
+    margin: 20px 50px 100px ;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 0px #757575;
+}
+
+.square.todos {
+    width: calc(100% / 6 - 50px);
+    height: 120px;
+}
+.square.beasts {
+    width: calc(100% / 6 - 50px);
+    height: 120px;
+}
+.square.veggy {
+    width: calc(100% / 6 - 50px);
+    height: 120px;
+}
+.square.user {
+    width: calc(100% / 6 - 50px);
+    height: 120px;
+}
+.icon{
+    font-size: 40px;
+}
+
+/* ********DEBUG******** */
+
+/* .debug.zoo{
+    
+    height: 800px;
+} */

@@ -113,8 +113,10 @@ const animals = [
 	}
 ];
 
+const ciccio = document.getElementById('fava');
 
-animals.forEach((element,ciccio,bagoncghi) => {
-	console.log(ciccio);
+animals.forEach((element,cicc,bagoncghi) => {
+	
+ciccio.innerHTML += `${element.color} `;
 	
 });
